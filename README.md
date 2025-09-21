@@ -32,14 +32,14 @@ A fun **Number Guessing Game** where you try to crack the secret number between 
 
 ## 🔗 Live Demo
 
-[Try it online](https://chipper-tulumba-104b37.netlify.app/) *(if hosted, replace `#` with your live demo link)*  
+[Try it online](https://chipper-tulumba-104b37.netlify.app/)  
 
 ---
 
 ## 📸 Screenshot
 
-![Number Guessing Game Screenshot]("C:\Users\hp\Pictures\Screenshots\Screenshot (165).png")  
-*(Replace `#` with your screenshot image URL if available)*  
+![Number Guessing Game Screenshot]("Screenshot (165).png")  
+  
 
 ---
 
