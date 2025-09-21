@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+:root{
+    --dark: #45458a;
+    --background: white;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Montserrat",sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #491579;
+    
+}
+main{
+    width: 50vw;
+    height: 100vh;
+    text-align: center;
+    background-color: var(--background);
+    border: solid var(--dark);
+    border-width: 0.8rem;
+    border-radius: 1rem;
+    padding: 8rem 5rem;
+    margin-top: auto;
+   
+    
+}
+
+h2{
+    font-size: 2.2rem;
+    margin: 1rem;
+    
+}
+h3{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.8rem;
+}
+img{
+    width: 50%;
+    max-height: 44rem;
+    height: auto;
+    margin: 1rem 0 4rem 0;
+}
+.buttonclass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+button{
+    min-width: 28rem;
+    background-color: rgb(203, 78, 158);
+    border-radius: 0.8rem;
+    border-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 2.5rem 6rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    user-select: none;
+    -webkit-user-select: none;
+    text-transform: capitalize;
+    font-family: "josefin Sans", sans-serif;
+}
+button:hover{
+    box-shadow: rgba(203, 78, 158, 0.8) 0 1px 30px;
+    transition-duration: 0.1s;
+}
+button:last-child{
+    background: var(--dark);
+    margin-bottom: 0;
+}
+button:last-child:hover{
+    box-shadow: rgba(69, 69, 138,0.8) 0 1px 30px;
+}
+#gameArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#newGameButton button{
+    margin: 2rem 0;
+}
+input{
+    border: .1rem solid lightgrey;
+    background: transparent;
+    margin: 4rem 0;
+    padding: 2rem 0;
+    width: 25rem;
+    text-align: center;
+    font-family: "josefin Sans", sans-serif;
+    font-size: 1.8rem;
+}
+.status{
+    text-align: left;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.info span{
+    font-size: 2rem;
+    color: red;
+    margin-top: 2rem;
+}
+@media(max-width: 1200px) {
+    body{
+        width: 100vw;
+        height: auto;
+    }
+    main{
+        width: min-content;
+        padding: 2rem;
+        height: min-content;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;    /* Center vertically */
+            height: 100%;           /* Ensure the main takes full height */
+            text-align: center;     /* Center text if needed */
+        
+    }
+    input{
+        width: 20rem;
+    }
+    #welcomeScreen{
+        margin: auto;
+    }
+    #gameArea{
+        width: min-content;
+        min-height: min-content;
+    }
+}
+@media(max-width:800px){
+    body{
+        width: 100vw;
+    }
+    main{
+        width: min-content;
+        padding: 2rem;
+        height: min-content;  
+        display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;    /* Center vertically */
+            height: 100%;           /* Ensure the main takes full height */
+            text-align: center; 
+             
+    }
+    #welcomeScreen h2{
+        text-transform: capitalize;
+        font-size: 2rem;
+    }
+    #gameArea{
+        width: min-content;
+        min-height: min-content;
+    }
+    input{
+        width: 20rem;
+    }
+}
+@media(max-width:700px){
+    body{
+        width: 100vw;
+    }
+    main{
+        width: min-content;
+        padding: 2rem;
+        height: min-content;
+        display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;    /* Center vertically */
+            height: 100%;           /* Ensure the main takes full height */
+            text-align: center;         
+    }
+    #welcomeScreen h2{
+        text-transform: capitalize;
+        font-size: 2rem;
+    }
+    #gameArea{
+        width: min-content;
+        min-height: min-content;
+    }
+    input{
+        width: 20rem;
+    }
+
+}
+
+@media(max-width:400px){
+    body{
+        width: 100vw;
+    }
+    main{
+        width: min-content;
+        padding: 2rem;
+        height: min-content; 
+               
+    }
+    #welcomeScreen h2{
+        text-transform: capitalize;
+        font-size: 2rem;
+    }
+    #gameArea{
+        width: min-content;
+        min-height: min-content;
+    }
+    input{
+        width: 20rem;
+    }
+    
+}
+
