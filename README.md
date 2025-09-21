@@ -38,7 +38,7 @@ A fun **Number Guessing Game** where you try to crack the secret number between 
 
 ## 📸 Screenshot
 
-![Number Guessing Game Screenshot](#)  
+![Number Guessing Game Screenshot]("C:\Users\hp\Pictures\Screenshots\Screenshot (165).png")  
 *(Replace `#` with your screenshot image URL if available)*  
 
 ---
