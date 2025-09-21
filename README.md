@@ -36,12 +36,6 @@ A fun **Number Guessing Game** where you try to crack the secret number between 
 
 ---
 
-## 📸 Screenshot
-
-![Number Guessing Game Screenshot]("Screenshot (165).png")  
-  
-
----
 
 ## 🚀 How to Run Locally
 
